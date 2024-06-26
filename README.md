@@ -62,7 +62,7 @@ Before running the node, you must first generate the genesis file. The contents 
 To generate the genesis file, run:
 
 ```sh
-miden-node make-genesis
+miden-node make-genesis --inputs-path <path-to-config-file>
 ```
 
 By default this will generate 1 file and 1 folder in the current directory:
